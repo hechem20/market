@@ -19,8 +19,8 @@ class _RegisterPageState extends State<RegisterPage> {
   String selectedRole = "client";
   
  
-   final String rpcUrl = "http://10.0.2.2:7545";
-   //final String rpcUrl = "https://rpc-testnet.morphl2.io"; // RPC officiel Morph Testnet
+   
+   final String rpcUrl = "https://rpc-testnet.morphl2.io"; // RPC officiel Morph Testnet
 
   final String contractAddress =
       "0x2C24DA4308D1b47d8eCa72114BE315673279e301"; // Adresse du contrat déployé
