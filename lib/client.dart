@@ -12,8 +12,8 @@ class ClientPage extends StatefulWidget {
 
 class _ClientPageState extends State<ClientPage> {
   late Web3Client _ethClient;
-  //final String _rpcUrl = "https://sepolia.morphl2.io";
-     final String _rpcUrl = "http://10.0.2.2:7545";
+  final String _rpcUrl = "https://sepolia.morphl2.io";
+     
 
   final String _privateKey = "0xcb19d6e37bbcdea36a35d8d0b23dbf51bbcdcf8f56beef118d1d7342bd6380bd";
   final EthereumAddress _contractAddr = EthereumAddress.fromHex("0xC8F61a9EfD59833EaFf89f25C2f53187Be1ef06C");
