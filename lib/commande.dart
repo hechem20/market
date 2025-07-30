@@ -14,9 +14,9 @@ class _CommandePageState extends State<CommandePage> {
   late Web3Client _client;
   late DeployedContract _contract;
   List<Map<String, dynamic>> _orders = [];
-   final String rpcUrl = "http://10.0.2.2:7545";
+  
 
-  //final String rpcUrl = "https://sepolia.infura.io/v3/YOUR_INFURA_KEY";
+  final String rpcUrl = "https://rpc-testnet.morphl2.io";
   final String privateKey = "0xcb19d6e37bbcdea36a35d8d0b23dbf51bbcdcf8f56beef118d1d7342bd6380bd";
   final String contractAddress = "0x52091e493E964ac257ddd7c6739505C1E58682a9";
 
