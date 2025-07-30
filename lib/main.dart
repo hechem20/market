@@ -23,8 +23,8 @@ class _LoginPageState extends State<LoginPage> {
   String nom2 = "";
   List<String> l1 = ["", ""];
   
-   final String rpcUrl = "http://10.0.2.2:7545";
-   //final String rpcUrl = "https://rpc-testnet.morphl2.io"; // RPC officiel Morph Testnet
+   
+   final String rpcUrl = "https://rpc-testnet.morphl2.io"; // RPC officiel Morph Testnet
 
   final String wsUrl = "ws://127.0.0.1:7545";
   final String contractAddress = "0x2C24DA4308D1b47d8eCa72114BE315673279e301";
