@@ -12,8 +12,8 @@ class VendorPage extends StatefulWidget {
 
 class _VendorPageState extends State<VendorPage> {
   late Web3Client ethClient;
- // final String rpcUrl = 'https://rpc-testnet.morphl2.io'; // Morph testnet RPC
-    final String rpcUrl = "http://10.0.2.2:7545";
+  final String rpcUrl = 'https://rpc-testnet.morphl2.io'; // Morph testnet RPC
+    
 
   final String privateKey = '0xcb19d6e37bbcdea36a35d8d0b23dbf51bbcdcf8f56beef118d1d7342bd6380bd';
   final String contractAddress = '0xC8F61a9EfD59833EaFf89f25C2f53187Be1ef06C';
